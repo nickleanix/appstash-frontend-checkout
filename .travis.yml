@@ -6,7 +6,7 @@ node_js:
 after_success:  
 - docker pull leanix/pivio-client
 - docker run --rm -v $(pwd):/source leanix/pivio-client npm-license-checker
-- docker run --rm -v $(pwd):/source leanix/pivio-client pivio -serviceurl "https://test-app-1.leanix.net/services/integrations/v2/pivio/document" -verbose -addfield $APITOKEN
+- docker run --rm -v $(pwd):/source leanix/pivio-client pivio -serviceurl "https://app.leanix.net/services/integrations/v2/pivio/document" -verbose -addfield $APITOKEN
 
 services:
   - docker
