@@ -1,0 +1,19 @@
+{
+  "appstash-frontend-checkout@1.0.0": {
+    "licenses": "UNLICENSED",
+    "private": true,
+    "publisher": "LeanIX",
+    "path": "/source",
+    "licenseFile": "/source/README.md"
+  },
+  "highcharts@6.2.0": {
+    "licenses": "Custom: https://www.npmjs.com/package/highcharts-server",
+    "repository": "https://github.com/highcharts/highcharts-dist",
+    "publisher": "Highsoft AS",
+    "email": "support@highcharts.com",
+    "url": "http://www.highcharts.com/about",
+    "path": "/source/node_modules/highcharts",
+    "licenseFile": "/source/node_modules/highcharts/README.md"
+  }
+}
+
